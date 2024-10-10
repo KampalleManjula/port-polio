@@ -1,0 +1,174 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul button {
+    background-color: #34495e;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+nav ul button:hover {
+    background-color: #2980b9;
+}
+
+.about {
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ecf0f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.project-item {
+    background-color: #bdc3c7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+label {
+    margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #1c1c1c;
+    color: #f4f4f4;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+    background-color: #141414;
+}
+
+body.dark-mode ul li,
+body.dark-mode .project-item {
+    background-color: #333;
+}
+
+body.dark-mode input[type="text"],
+body.dark-mode textarea {
+    background-color: #444;
+    color: white;
+}
+
+body.dark-mode button[type="submit"] {
+    background-color: #555;
+}
+
+body.dark-mode button[type="submit"]:hover {
+    background-color: #666;
+}
+
+body.dark-mode .social-media a {
+    color: #bbb;
+}

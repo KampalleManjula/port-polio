@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Enhanced Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+               <li><button id="toggleDarkMode">Toggle Dark Mode</button></li>
+        <nav>
+            <ul>
+                <button>
+                    <li><a href="#home">Home</a></li>
+                </button>
+                <button>
+                    <li><a href="#education">Education</a></li>
+                </button>
+                <button>
+                    <li><a href="#Skills">Skills</a></li>
+                </button>
+                <button>
+                    <li><a href="#projects">Projects</a></li>
+                </button>
+                <button>
+                    <li><a href="#contact">Contact</a></li>
+                </button>
+             
+            </ul>
+        </nav>
+        <div class="about">
+            <h1>Welcome to My Portfolio</h1>
+            <p>K.Manjula</p>
+            <p>kampallemanjureddy30@gmail.com</p>
+            <p>7331180441</p>
+        </div>
+    </header>
+    <center>
+        <h3>OBJECTIVE:</h3>
+
+    <p>Seeking a position in dynamic organization where i can launch my career and work towords building a strong skill
+        set.</p>    </center>
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <h3>B.Tech</h3>
+                <p>Collage: VEMU Instituste of Technology</p>
+                <p>Year of Passing: 2023</p>
+                <p>Percentage: 79%</p>
+            </li>
+            <li>
+                <h3>Diploma</h3>
+                <p>Collage: Govt Polytechnic Women Palamaner</p>
+                <p>Year of Passing: 2020</p>
+                <p>Percentage: 82%</p>
+            </li>
+            <li>
+                <h3>SSC</h3>
+                <p>School: Z.P.H.S M.Paipalle</p>
+                <p>Year of Passing: 2017</p>
+                <p>Percentage: 87%</p>
+            </li>
+        </ul>
+    </section>
+    <section id="Skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>
+                <h3>JAVA</h3>
+            </li>
+            <li>
+                <h3>HTML</h3>
+
+            </li>
+            <li>
+                <h3>CSS</h3>
+
+            </li>
+            <li>
+                <h3>JAVASCRIPT</h3>
+
+            </li>
+            <li>
+                <h3>SQL</h3>
+
+            </li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Project Details</h2>
+        <div class="projects-grid">
+            <div class="project-item" data-category="web">
+                <h3>Title: Accident Prevention & Automatic Gate Control in Railways using GSM.</h3>
+                <p><b>Description:</b> Railways Accidents prevention and protection are important part of transport
+                    safety. In this the Arrival and Departure of the train near Railway Gate is detected by IR Sensors
+                    the information is feed to MC that signal to Gate Motor through Relay. In train engine object in the
+                    track also detected by UItrasonic Sensor consequently train stopped. Railway Accidents can be
+                    prevented by auto break system, if in case accident occurs then auto response system to
+                    Higher Authorities</p>
+                <a href="project ckt.jpg">View Project</a>
+            </div>
+        </div>
+    </section>
+
+<form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name-input" placeholder="Enter your name...">
+
+    <label for="email">Email:</label>
+    <input type="text" id="email-input" placeholder="Enter a valid email...">
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+
+    <button type="submit">Send Message</button>
+</form>
+<p id="formFeedback" class="hidden">Your message has been sent!</p>
+    <footer>
+        <p>&copy; 2024 Manju Portfolio</p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/k-manjula-339181237">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
